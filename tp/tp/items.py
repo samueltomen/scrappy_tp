@@ -19,3 +19,8 @@ class KboItem(scrapy.Item):
     financial_data = scrapy.Field()
     entity_links = scrapy.Field()
     external_links = scrapy.Field()
+
+
+class EjusticeItem(scrapy.Item):
+    enterprise_number = scrapy.Field()
+    publications = scrapy.Field()
